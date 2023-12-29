@@ -1,7 +1,5 @@
-// Step 24
-// The pattern you currently have will match the exact text hello, which is not what you want to match. You want to look for +, -, or spaces. Replace the pattern in your regex variable with \+- to look for plus and minus characters.
-
-// Note that you need to use the \ to escape the +, because a + has a special meaning in regular expressions.
+// Step 25
+// In regex, shorthand character classes allow you to match specific characters without having to write those characters in your pattern. Shorthand character classes are preceded with a backslash (\). The character class \s will match any whitespace character. Add this to your regex pattern.
 
 const calorieCounter = document.getElementById('calorie-counter')
 const budgetNumberInput = document.getElementById('budget')
